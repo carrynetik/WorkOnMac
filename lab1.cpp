@@ -7,7 +7,7 @@ int main() {
     std::cout << "Введите радиус: ";
     std::cin >> r;
     std::cout << "Тип: float" << std::endl; //выбрал float, тк число с плавающей запятой(не целое)
-    std::cout << "Размер в байтахzzzz: " << sizeof(konstanta) << std::endl;
+    std::cout << "Размер в байтах: " << sizeof(konstanta) << std::endl;
     float minsize = pow(2, -126);
     float maxsize = (2 - pow(2, -23)) * pow(2, 127);
     std::cout << "Минимальное значение: " << minsize << std::endl;
